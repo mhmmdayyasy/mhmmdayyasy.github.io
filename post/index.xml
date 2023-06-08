@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portofolio on Home</title>
+    <link>https://mhmmdayyasy.github.io/post/</link>
+    <description>Recent content in Portofolio on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://mhmmdayyasy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delivery Optimization</title>
+      <link>https://mhmmdayyasy.github.io/post/project-3/</link>
+      <pubDate>Thu, 12 Jan 2023 11:13:32 -0400</pubDate>
+      
+      <guid>https://mhmmdayyasy.github.io/post/project-3/</guid>
+      <description>Project Report For this project I was asked to be creative. I need to Look for any insight that can possibly be applied to optimize workflow of a delivery companies from the given information.
+Introduction This report contains every insight I could find. I used exploratory data analysis and machine learning to look for every possible improvement that could be used as a solution to increase the effectiveness of the delivery process.</description>
+    </item>
+    
+    <item>
+      <title>M O T R A V</title>
+      <link>https://mhmmdayyasy.github.io/post/project-1/</link>
+      <pubDate>Thu, 14 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://mhmmdayyasy.github.io/post/project-1/</guid>
+      <description>Motrav (Mobile tracking vehicle) is a smart system that enhances your vehicle&amp;rsquo;s security and accessibility. The system consists of an electronic device, a cloud server, and a mobile app. This project is my final research project, where I designed a system that can be used to track vehicles, control vehicle engines, and provide warnings through the phone when vehicles are detected in &amp;ldquo;suspicious&amp;rdquo; conditions.
+For this project i worked on the electrical board device, apps design, system integration and evaluation.</description>
+    </item>
+    
+    <item>
+      <title>Advancing Market Price Prediction with Machine Learning Models: A Research Study</title>
+      <link>https://mhmmdayyasy.github.io/post/project-2/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mhmmdayyasy.github.io/post/project-2/</guid>
+      <description>Reasearch on Market price prediction by utilizing machine learning is my research project during the internship work at PT GIT Solution as a Data Analyst. The objective is to find the most accurate model to predict stock price movements and to analyze any available insight from the data. The flowchart below is the flowchart of the proposed pipeline for the model.
+My main responsibilites for this projects include:
+Literature review Data scrapping and labeling Data preparation and pre-processing Test and evaluate proposed models Create visualization and reports The proposed model uses historical analysis based on data collected from open source data combined with sentiment analysis using the NLP lexicon model.</description>
+    </item>
+    
+  </channel>
+</rss>

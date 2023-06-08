@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Delivery Optimization | Home</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Extracting delivery data insights using exploratory data analysis and applied machine learning techniques.">
+    <meta name="generator" content="Hugo 0.112.5">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="https://mhmmdayyasy.github.io/ananke/css/main.min.css" >
+
+
+
+  
+
+
+<link rel="stylesheet" href="https://mhmmdayyasy.github.io/themes/anankee/assets/ananke/css/custom.css">
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Delivery Optimization" />
+<meta property="og:description" content="Extracting delivery data insights using exploratory data analysis and applied machine learning techniques." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mhmmdayyasy.github.io/post/project-3/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-01-12T11:13:32-04:00" />
+<meta property="article:modified_time" content="2023-01-12T11:13:32-04:00" />
+<meta itemprop="name" content="Delivery Optimization">
+<meta itemprop="description" content="Extracting delivery data insights using exploratory data analysis and applied machine learning techniques."><meta itemprop="datePublished" content="2023-01-12T11:13:32-04:00" />
+<meta itemprop="dateModified" content="2023-01-12T11:13:32-04:00" />
+<meta itemprop="wordCount" content="919">
+<meta itemprop="keywords" content="Data Science,Data Analysis,Data Visualization,Python," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Delivery Optimization"/>
+<meta name="twitter:description" content="Extracting delivery data insights using exploratory data analysis and applied machine learning techniques."/>
+
+	
+  </head>
+
+  <body class="ma0 helvetica bg-light-gray">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://mhmmdayyasy.github.io/images/Delivery%20Optimization-img/Delivery_destination_distribution.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://mhmmdayyasy.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Home
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://mhmmdayyasy.github.io/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://mhmmdayyasy.github.io/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://mhmmdayyasy.github.io/post/" title="Portofolio page">
+              Portofolio
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.twitter.com/mhmmd_ayyasy" target="_blank" rel="noopener" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Delivery Optimization</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Extracting delivery data insights using exploratory data analysis and applied machine learning techniques.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PORTOFOLIO
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://twitter.com/share?url=https://mhmmdayyasy.github.io/post/project-3/&amp;text=Delivery%20Optimization" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Delivery Optimization</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-01-12T11:13:32-04:00">January 12, 2023</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy sans-serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="project-report">Project Report</h1>
+<p>For this project I was asked to be creative. I need to Look for any insight that can possibly be applied to optimize workflow of a delivery companies from the given information.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This report contains every insight I could find. I used exploratory data analysis and machine learning to look for every possible improvement that could be used as a solution to increase the effectiveness of the delivery process.</p>
+<hr>
+<h2 id="key-insights">Key Insights</h2>
+<h3 id="payment-method-preference-success-rate-and-failure-case">Payment Method Preference, Success Rate, and Failure Case</h3>
+<h4 id="payment-preference">Payment Preference</h4>
+<figure><img src="https://mhmmdayyasy.github.io/images/Delivery%20Optimization-img/payment-method-percentage.png"/>
+</figure>
+
+<p><em>Pie Chart</em> above shows customer(user) payment method preference.
+<strong>71.6% of 8334 customer prefer to use Prepayment</strong> method to pay for their package while the rest <strong>28.4% prefer to use CoD system</strong>. Now, we have to look which payment methods are better for the company.</p>
+<h4 id="success-rate-and-failure-rate">Success Rate and Failure Rate</h4>
+<figure><img src="https://mhmmdayyasy.github.io/images/Delivery%20Optimization-img/payment-method-status-task-relationship.png"/>
+</figure>
+
+<p>Since there are no data about amount of money received from prepayment payment method. I used the package delivery success rate based on the payment type used. Based on the barplot above, the following information is obtained:</p>
+<ol>
+<li>There were 4688 successful deliveries out of 5976 deliveries using prepayment &ndash; <strong>(Success Rate: 78.44%)</strong></li>
+<li>There were 739 successful deliveries out of 2358 deliveries using CoD &ndash; <strong>(Success Rate: 31.34%)</strong></li>
+<li>There were 910 delivery failure using prepayment &ndash; <strong>(Failure Rate: 15.23%)</strong></li>
+<li>There were 1235 delivery failure using CoD &ndash; <strong>(Failure Rate: 52.37%)</strong></li>
+<li>while the rest deliveries are still ongoing</li>
+</ol>
+<p>From this information we can see that Prepayment method has higher delivery Success Rate with lower Failure than CoD. So, <strong>Prepayment will be much more beneficial for the company</strong> since it has has lower risk percentage</p>
+<h4 id="top-cause-of-cod-delivery-failure">Top Cause of CoD delivery Failure</h4>
+<figure><img src="https://mhmmdayyasy.github.io/images/Delivery%20Optimization-img/cause-of-cod-failure.png"/>
+</figure>
+
+<p><strong>The Barplot</strong> above shows the causes of delivery failures that are only found in the CoD payment system. It can be seen in some cases, the customer refuses to accept the package or even refuses to pay for the package.
+This is the reason why prepayment has higher success rate, while CoD has higher failur rate</p>
+<h3 id="delivery-branch-performance">Delivery Branch Performance</h3>
+<h4 id="top-5-origin-destination-and-route">Top 5 origin, Destination and Route</h4>
+<figure><img src="https://mhmmdayyasy.github.io/images/Delivery%20Optimization-img/top5_origin-dest-route.png"/>
+</figure>
+
+<p><strong>barplots</strong> above shows that the CGK branch is the highest package delivery branch with more than 5000 deliveries far above the other branches. While the top 5 destination branches are more evenly distributed as shown in <strong>Top 5 Destination Branch Barplot</strong>. The <strong>Top 5 Route</strong> barplot also showed the same, but the top 5 route to do deliveries are all started from CGK branch</p>
+<p>from this information there are several strategies that can be taken to improve business efficiency and effectiveness, including:</p>
+<ol>
+<li>Improve logistics by increasing units and services at the CGK branch</li>
+<li>Optimize inventory management at branches of origin or branches of destination that have high delivery intensity to ensure that the business can meet demand</li>
+<li>Optimize delivery route by finding the most effiecient route to deliver package especially the most used routes as shown in the chart above</li>
+</ol>
+<h4 id="main-cause-of-failure-in-top-5-most-failed-delivery-task">Main cause of Failure in Top 5 Most Failed Delivery Task</h4>
+<figure><img src="https://mhmmdayyasy.github.io/images/Delivery%20Optimization-img/top3-causeof-failure-in-dest.png"/>
+</figure>
+
+<p><strong>Stacked Bar Chart</strong> above shows top 5 branch destination with the most failed delivery case. There are 3 different color used in this chart.</p>
+<ul>
+<li><strong>Blue</strong> represent number of fail case due to Misroute problem</li>
+<li><strong>Orange</strong> represent number of fail case due to the user new address</li>
+<li><strong>Green</strong> represent number of fail case due to empty house/office (no recipient)</li>
+</ul>
+<p>From this chart we can see that Misrouting is causing big trouble in PLM, SRG and PGK branch. Misrouting can be caused by errors in the system, operational issues, track conditions, or human error. Meanwhile, new address problems and empty house/office problems generally occur due to human error. These three problems can be prevented or mitigated by the company with these solutions:</p>
+<ol>
+<li>Company needs to verify user address by using online address verification services</li>
+<li>Improve communication with customers by providing regular updates on the status of their packages.</li>
+<li>Company can develop mapping tools to plan the most efficient routes, and reducing the risk of misrouting due to closed road. This tools can also help to track packages, allowing corrective action to be taken before the package is lost or delivered to the wrong address</li>
+</ol>
+<h2 id="extracting-insight-with-rf-and-gb-classifier">Extracting insight with RF and GB Classifier</h2>
+<h3 id="delivery-time-and-payment-method-determine-delivery-success">Delivery Time and Payment Method Determine Delivery Success</h3>
+<p>I use Feature Selection with Random Forest and Gradient Boost Classiefier algorithm to look on the most impactful factor of success in delivery. <strong>taskStatusLabel</strong> used as the target variable for feature selection, so that we can see what factors are the best to estimate wether the delivery will be <strong>success</strong> or <strong>fail</strong>.</p>
+<p><code>rf_top_5 = feature_importances['Random Forest'].head(5)</code></p>
+<p><code>gb_top_5 = feature_importances['Gradient Boosting'].head(5)</code></p>
+<p>Top 5 factor from random forest and top 5 factor from gradient boost stored in a variable each. Then these variable plotted using <strong>barplot</strong> to see what factor is the most determinant for the delivery success.</p>
+<figure><img src="https://mhmmdayyasy.github.io/images/Delivery%20Optimization-img/Top5-feature-importance-rf-gb.png"/>
+</figure>
+
+<p>The feature selection results displayed on the barplot with the <strong>Random Forest</strong> and <strong>Gradient Boost</strong> algorithms show similarities, where taskDuration has the highest level of importance, followed by paymentMethod even though the import value is different.</p>
+<p>Meanwhile, there are differences in the importance of the other 3 predictors seen from both algorithms. This means that <strong>taskDuration and paymentMethod can be reliable predictors</strong> in predicting taskStatus.</p>
+<p>Based on this information, it can be concluded that the success rate of package delivery can be improved by preventing problems that affect the duration of delivery and optimizing payment methods in accordance with the results of the analysis that has been carried out. In addition, companies can also predict the success rate of delivery with algorithms based on the two predictors.</p>
+<hr>
+<p><a href="https://github.com/mhmmdayyasy/Analysis-and-ML-delivery-data-insight">Github Repository</a></p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="https://mhmmdayyasy.github.io/tags/data-science/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Science</a>
+   </li>
+  
+   <li class="list di">
+     <a href="https://mhmmdayyasy.github.io/tags/data-analysis/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Analysis</a>
+   </li>
+  
+   <li class="list di">
+     <a href="https://mhmmdayyasy.github.io/tags/data-visualization/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Visualization</a>
+   </li>
+  
+   <li class="list di">
+     <a href="https://mhmmdayyasy.github.io/tags/python/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Python</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="https://mhmmdayyasy.github.io/post/project-2/">Advancing Market Price Prediction with Machine Learning Models: A Research Study</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://mhmmdayyasy.github.io/" >
+    &copy;  Home 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.twitter.com/mhmmd_ayyasy" target="_blank" rel="noopener" class="twitter ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Twitter link" aria-label="follow on Twitter——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

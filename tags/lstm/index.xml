@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LSTM on Home</title>
+    <link>https://mhmmdayyasy.github.io/tags/lstm/</link>
+    <description>Recent content in LSTM on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mhmmdayyasy.github.io/tags/lstm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advancing Market Price Prediction with Machine Learning Models: A Research Study</title>
+      <link>https://mhmmdayyasy.github.io/post/project-2/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mhmmdayyasy.github.io/post/project-2/</guid>
+      <description>Reasearch on Market price prediction by utilizing machine learning is my research project during the internship work at PT GIT Solution as a Data Analyst. The objective is to find the most accurate model to predict stock price movements and to analyze any available insight from the data. The flowchart below is the flowchart of the proposed pipeline for the model.
+My main responsibilites for this projects include:
+Literature review Data scrapping and labeling Data preparation and pre-processing Test and evaluate proposed models Create visualization and reports The proposed model uses historical analysis based on data collected from open source data combined with sentiment analysis using the NLP lexicon model.</description>
+    </item>
+    
+  </channel>
+</rss>

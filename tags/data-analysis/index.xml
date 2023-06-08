@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis on Home</title>
+    <link>https://mhmmdayyasy.github.io/tags/data-analysis/</link>
+    <description>Recent content in Data Analysis on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Jan 2023 11:13:32 -0400</lastBuildDate><atom:link href="https://mhmmdayyasy.github.io/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delivery Optimization</title>
+      <link>https://mhmmdayyasy.github.io/post/project-3/</link>
+      <pubDate>Thu, 12 Jan 2023 11:13:32 -0400</pubDate>
+      
+      <guid>https://mhmmdayyasy.github.io/post/project-3/</guid>
+      <description>Project Report For this project I was asked to be creative. I need to Look for any insight that can possibly be applied to optimize workflow of a delivery companies from the given information.
+Introduction This report contains every insight I could find. I used exploratory data analysis and machine learning to look for every possible improvement that could be used as a solution to increase the effectiveness of the delivery process.</description>
+    </item>
+    
+  </channel>
+</rss>

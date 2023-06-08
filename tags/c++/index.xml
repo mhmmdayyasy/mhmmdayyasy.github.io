@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Home</title>
+    <link>https://mhmmdayyasy.github.io/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 Apr 2022 10:58:08 -0400</lastBuildDate><atom:link href="https://mhmmdayyasy.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M O T R A V</title>
+      <link>https://mhmmdayyasy.github.io/post/project-1/</link>
+      <pubDate>Thu, 14 Apr 2022 10:58:08 -0400</pubDate>
+      
+      <guid>https://mhmmdayyasy.github.io/post/project-1/</guid>
+      <description>Motrav (Mobile tracking vehicle) is a smart system that enhances your vehicle&amp;rsquo;s security and accessibility. The system consists of an electronic device, a cloud server, and a mobile app. This project is my final research project, where I designed a system that can be used to track vehicles, control vehicle engines, and provide warnings through the phone when vehicles are detected in &amp;ldquo;suspicious&amp;rdquo; conditions.
+For this project i worked on the electrical board device, apps design, system integration and evaluation.</description>
+    </item>
+    
+  </channel>
+</rss>
